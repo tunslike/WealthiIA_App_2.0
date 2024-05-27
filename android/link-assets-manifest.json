@@ -1,0 +1,265 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "src/assets/fonts/Rubik-Black.ttf",
+      "sha1": "e917d0dcb7b5ca38a06d482849acb810986240f2"
+    },
+    {
+      "path": "src/assets/fonts/Rubik-BlackItalic.ttf",
+      "sha1": "41c0cf29e96590fcbed63b7725bff10e9a110ef4"
+    },
+    {
+      "path": "src/assets/fonts/Rubik-Bold.ttf",
+      "sha1": "41ea8bf640e3f1b497d8ff1faf79b39d55f9fd84"
+    },
+    {
+      "path": "src/assets/fonts/Rubik-BoldItalic.ttf",
+      "sha1": "2517f7189dc3287dae3f151b75bbfb6328a883a3"
+    },
+    {
+      "path": "src/assets/fonts/Rubik-ExtraBold.ttf",
+      "sha1": "73745fef9a577118db0e2f25c4d5c0ac91418ba5"
+    },
+    {
+      "path": "src/assets/fonts/Rubik-ExtraBoldItalic.ttf",
+      "sha1": "85d8b3d726f8eb89fafb0060561b104b6e9acf21"
+    },
+    {
+      "path": "src/assets/fonts/Rubik-Italic.ttf",
+      "sha1": "b4c199c875be86ada0f3580020d092f3ef21703d"
+    },
+    {
+      "path": "src/assets/fonts/Rubik-Light.ttf",
+      "sha1": "2bee15b4614d43529aefb416b5c1b084b92c7a3c"
+    },
+    {
+      "path": "src/assets/fonts/Rubik-LightItalic.ttf",
+      "sha1": "00e66e2f47133b17ff49d96b251ebb3a2614d713"
+    },
+    {
+      "path": "src/assets/fonts/Rubik-Medium.ttf",
+      "sha1": "9dd416bb989087a3e63125f4fea7898c97ff157c"
+    },
+    {
+      "path": "src/assets/fonts/Rubik-MediumItalic.ttf",
+      "sha1": "8ebecbac39bbcd437ed14785ba8e9efb53cfda17"
+    },
+    {
+      "path": "src/assets/fonts/Rubik-Regular.ttf",
+      "sha1": "d06c7083a79f12a8f70b49fe8901c73b80aeda55"
+    },
+    {
+      "path": "src/assets/fonts/Rubik-SemiBold.ttf",
+      "sha1": "08936fac810b5b3349366ca8f8de0eec5307cd87"
+    },
+    {
+      "path": "src/assets/fonts/Rubik-SemiBoldItalic.ttf",
+      "sha1": "7a08df8c79fc1c8f733e53e4f56ebaf883920f1c"
+    },
+    {
+      "path": "src/assets/icons/alert.png",
+      "sha1": "a1ac43c4344db17cdcad81d2c44afd3a87f5f230"
+    },
+    {
+      "path": "src/assets/icons/all_inbox.png",
+      "sha1": "1d7fbc2051d6e425a48df6d985bc6b5f5d419260"
+    },
+    {
+      "path": "src/assets/icons/arrow_forward_ios.png",
+      "sha1": "1963d45c13247d6ea519f288daa2fa35c049d064"
+    },
+    {
+      "path": "src/assets/icons/back.png",
+      "sha1": "16317ee00d2e3640e44cb5f89b44d6865e453b33"
+    },
+    {
+      "path": "src/assets/icons/backarrow.png",
+      "sha1": "4b519a2f27519fcc9186510a9dafd4ef3eb64596"
+    },
+    {
+      "path": "src/assets/icons/backarrw.png",
+      "sha1": "caa395a34e99374425290581886d98e332a5da60"
+    },
+    {
+      "path": "src/assets/icons/bookmark-filled.png",
+      "sha1": "99e32ad23aed08e9af566a3cb750586c7b96925b"
+    },
+    {
+      "path": "src/assets/icons/bookmark.png",
+      "sha1": "906d5501f259c81814a5cf2a935af6fce7e0dc47"
+    },
+    {
+      "path": "src/assets/icons/chat.png",
+      "sha1": "dba7c0d292d36a28771b6d312a044aa61543f6d0"
+    },
+    {
+      "path": "src/assets/icons/favorite.png",
+      "sha1": "e50e0ee16cfc2b2ec24390f836aa1bc8b10e2c1d"
+    },
+    {
+      "path": "src/assets/icons/female.png",
+      "sha1": "3611918556ac377673a033091ec0411045938608"
+    },
+    {
+      "path": "src/assets/icons/home.png",
+      "sha1": "0e24404b79568c026120a329fa3fa3ac9be4be3e"
+    },
+    {
+      "path": "src/assets/icons/info.png",
+      "sha1": "c79f5238b9c9e11c5f04d4bf85f5ce21a75e1298"
+    },
+    {
+      "path": "src/assets/icons/location.png",
+      "sha1": "e623227997d48fac1c0d6c99d0afb1f0a6d9c22d"
+    },
+    {
+      "path": "src/assets/icons/logout.png",
+      "sha1": "eebb1b2bd27d1e50d215a209d2e04a19aa5feb4a"
+    },
+    {
+      "path": "src/assets/icons/logout2.png",
+      "sha1": "6df5dc82ebb31ea333709ba644002a3029505a0d"
+    },
+    {
+      "path": "src/assets/icons/mail.png",
+      "sha1": "a406c533377cb99ee0993c5322dda9826bf7cad6"
+    },
+    {
+      "path": "src/assets/icons/male.png",
+      "sha1": "519c4bd59b4c15b173b34804d49a1178415b7738"
+    },
+    {
+      "path": "src/assets/icons/msgRead.png",
+      "sha1": "ed576cd744473f718062a9d2340538571489945f"
+    },
+    {
+      "path": "src/assets/icons/msgStatus.png",
+      "sha1": "f2206d6d98af7a39cb6b1f1fd6cf7e1222433047"
+    },
+    {
+      "path": "src/assets/icons/name.png",
+      "sha1": "7e5b9fc62257a9407ebdbd0c17bb6549dc48d8fb"
+    },
+    {
+      "path": "src/assets/icons/password.png",
+      "sha1": "98dc9ef77f2283c8507773cfd4d00d237b00c5e6"
+    },
+    {
+      "path": "src/assets/icons/phone.png",
+      "sha1": "8378fe308b9f1429e2833366e88d636dfe1d0aca"
+    },
+    {
+      "path": "src/assets/icons/portfolio.png",
+      "sha1": "aa1bf5ff931e3f5eb2b46102fe6ee522eb3507d6"
+    },
+    {
+      "path": "src/assets/icons/profile.png",
+      "sha1": "d4be50e762a09d22fc42a063e8b92a8181330f0a"
+    },
+    {
+      "path": "src/assets/icons/pwd2.png",
+      "sha1": "6c3176d40e7936d7d819034ede827ca4a60a3574"
+    },
+    {
+      "path": "src/assets/icons/right-arrow.png",
+      "sha1": "8cdb5f3be72168c0852d2eb582768c1dcad8ecd0"
+    },
+    {
+      "path": "src/assets/icons/search.png",
+      "sha1": "1852742899415e6b03f0d7f64a0d4a5146fd6d31"
+    },
+    {
+      "path": "src/assets/icons/sector.png",
+      "sha1": "ed515b3cd6eb8098135aa070d755b5edb833c1ac"
+    },
+    {
+      "path": "src/assets/icons/send.png",
+      "sha1": "83b81fd8de4b90795799f76acfef6032e197034c"
+    },
+    {
+      "path": "src/assets/icons/settings.png",
+      "sha1": "6fe4509022f011f9a53825b1b1cc03b821d81e5c"
+    },
+    {
+      "path": "src/assets/icons/stop.png",
+      "sha1": "fefff226c1f277100e8f1d25468250c4988f6034"
+    },
+    {
+      "path": "src/assets/icons/success_icon.png",
+      "sha1": "97af380e75e59d29ed3569ff5e13d157bb11726d"
+    },
+    {
+      "path": "src/assets/icons/thumbsup.png",
+      "sha1": "4c9295b1b9770ad90e07a252081e31385a9c323f"
+    },
+    {
+      "path": "src/assets/icons/type.png",
+      "sha1": "8e3c0ff26e2250ea7ac2b66c7af441633ca62135"
+    },
+    {
+      "path": "src/assets/icons/userProfile.png",
+      "sha1": "45cef912361d9211b0b445d7b439e21f106ccd70"
+    },
+    {
+      "path": "src/assets/icons/view.png",
+      "sha1": "dc74568f73c6b3911210f463dfdb4f688e9de6c3"
+    },
+    {
+      "path": "src/assets/images/categories/company.jpeg",
+      "sha1": "f3ee54fc08d6b9330c27724e8215e36152bb1151"
+    },
+    {
+      "path": "src/assets/images/categories/enquiry.jpeg",
+      "sha1": "9f38fe79565d79de6c8a88be4a7f89f52f150e11"
+    },
+    {
+      "path": "src/assets/images/icons/coyicon.png",
+      "sha1": "130fc8a8311c94c74ab854cb9ef1730ecd347bf6"
+    },
+    {
+      "path": "src/assets/images/icons/email.png",
+      "sha1": "74a5bf74ab1461c87dd51187c284b12a42001c8f"
+    },
+    {
+      "path": "src/assets/images/icons/indicon.png",
+      "sha1": "add9e670d354addbda8a89aa74aa81db2526b5c8"
+    },
+    {
+      "path": "src/assets/images/icons/lock.png",
+      "sha1": "15b5d29ff5602c6a2ffbb6bc5b9de87f781c2a7a"
+    },
+    {
+      "path": "src/assets/images/icons/state.png",
+      "sha1": "4a9fd9e0e18ab1645473c1e052ceb37d6b0b25e7"
+    },
+    {
+      "path": "src/assets/images/icons/user.png",
+      "sha1": "6d8cb8a808086514eea8eed85d61d39f19bb722c"
+    },
+    {
+      "path": "src/assets/images/listbg.png",
+      "sha1": "dca3c23a933eea75f6bd4d76fed999c3502f877f"
+    },
+    {
+      "path": "src/assets/images/loginbg.png",
+      "sha1": "ca68bb1c2738c00bfca900ac0ab6954cf665f8fb"
+    },
+    {
+      "path": "src/assets/images/w_logo.png",
+      "sha1": "56cf56ce3b34308a4ad79fd7c1a5b85067143d70"
+    },
+    {
+      "path": "src/assets/images/welcome/weclome1.png",
+      "sha1": "860cfebbb1d7811af3167a0b68fcee53c02102ba"
+    },
+    {
+      "path": "src/assets/images/welcome/welcome2.png",
+      "sha1": "60db659ab6a64242abe1fac98c07f3f31dd261ba"
+    },
+    {
+      "path": "src/assets/images/white_logo.png",
+      "sha1": "a3f12f6f1e15494b6e07f1a2b4c01f01d627336d"
+    }
+  ]
+}

@@ -8,12 +8,77 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* wealthia20Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* wealthia20Tests.m */; };
+		0379F7F9A507474DB0A21DC9 /* msgRead.png in Resources */ = {isa = PBXBuildFile; fileRef = DEDA7866931B4DC2BA4CD6E8 /* msgRead.png */; };
+		049715B091194AD7BEF3DCEF /* pwd2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3292CC4B6F4A49E29CCE2460 /* pwd2.png */; };
+		074DA80679B24D2399B27414 /* Rubik-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C6C76B466E89408490D41EA3 /* Rubik-SemiBoldItalic.ttf */; };
+		08267DDD36E143B688C9D36D /* white_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 9932B940B3AC4D96871E2270 /* white_logo.png */; };
 		0C80B921A6F3F58F76C31292 /* libPods-wealthia20.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-wealthia20.a */; };
+		0C89D9F9133544DDB979762F /* Rubik-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9F9B077EDF4C4A43816F3C1A /* Rubik-ExtraBold.ttf */; };
+		0D58DDFC4BFB4355B288D704 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 692D46A836014D9BBD96940F /* home.png */; };
+		137E2824FB19431EAD35511C /* Rubik-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 796861F28E5C4892B0564C56 /* Rubik-SemiBold.ttf */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		13C40BA83D4D4FC0B7B9AE88 /* Rubik-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5996C91778564601A505388E /* Rubik-BlackItalic.ttf */; };
+		1849EE83D4534FA3901C3F12 /* user.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F9262C9A66F495F9C7F837F /* user.png */; };
+		1FD3A8BE072F4B4E8140C659 /* Rubik-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BCB6E7DC24B346AB9CD47DE4 /* Rubik-Black.ttf */; };
+		20D7BF512792401EBB9E8C03 /* listbg.png in Resources */ = {isa = PBXBuildFile; fileRef = 641E3CBF59B64E688F6DA097 /* listbg.png */; };
+		212988E641274D8AA6B6290C /* name.png in Resources */ = {isa = PBXBuildFile; fileRef = 786F08EB991347819030D1FB /* name.png */; };
+		212C77836C494300BBAD6B90 /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = B31B64132F8F43ED9106D281 /* settings.png */; };
+		24E11C13E14A4542B31B59F1 /* chat.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E46A87F8B39462FA07870D8 /* chat.png */; };
+		31929AD5BF724ECD859261BE /* success_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4774A2CF77DD4E8AAADB1866 /* success_icon.png */; };
+		31E73DDFB2274DBE92B82129 /* send.png in Resources */ = {isa = PBXBuildFile; fileRef = 93D66098A3464CCBAAF617F9 /* send.png */; };
+		31E8A0AA53CB4E0FA796A8D9 /* profile.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CF99EA412B34C34B68C4B1C /* profile.png */; };
+		32BFE816143B48209674FF24 /* Rubik-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ED965B662B834512AC0CB347 /* Rubik-BoldItalic.ttf */; };
+		3545040FF5D641ACA2584610 /* welcome2.png in Resources */ = {isa = PBXBuildFile; fileRef = 06E23AE5F7B64807957CF073 /* welcome2.png */; };
+		370CED5AC1C647B490CDFB8A /* logout.png in Resources */ = {isa = PBXBuildFile; fileRef = F5EB6FD5F10547D999567913 /* logout.png */; };
+		37AAEDBF1AF741C9A149BA8F /* logout2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8303084D34D94CBAA69832F6 /* logout2.png */; };
+		3933E6697C55477881E5EDE0 /* favorite.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D0044CC05554B2E80B48133 /* favorite.png */; };
+		3EF1B151D9F64FDD93B2DD62 /* all_inbox.png in Resources */ = {isa = PBXBuildFile; fileRef = CC36EDCB18454EB78EE2160A /* all_inbox.png */; };
+		3FA9D1ADDD1E444B8D096AB8 /* msgStatus.png in Resources */ = {isa = PBXBuildFile; fileRef = 59D5C75923164BC49E8C8859 /* msgStatus.png */; };
+		52F2538A1A664130AEB573AC /* Rubik-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 25B6023002BF41D4ABF91EA9 /* Rubik-Bold.ttf */; };
+		5525ACFE8B5C47E4A9BB316E /* state.png in Resources */ = {isa = PBXBuildFile; fileRef = BA10CDC1D7FD4E6582D78EA5 /* state.png */; };
+		58D7C8BF9A6344F6A5420055 /* loginbg.png in Resources */ = {isa = PBXBuildFile; fileRef = E7CEA33EB6E445FFA11DC6E0 /* loginbg.png */; };
+		596E0E3FFF194139AEBCDFD0 /* Rubik-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D9ACA02233A243C89DF91B5B /* Rubik-Light.ttf */; };
+		605CDFE21AC94A5CA00E8625 /* view.png in Resources */ = {isa = PBXBuildFile; fileRef = D34A584ACAA64C688E1D8841 /* view.png */; };
+		6125899F9AB64B4F92BA3FE5 /* male.png in Resources */ = {isa = PBXBuildFile; fileRef = 42D77F1B22D243BA8D487B0F /* male.png */; };
+		65F0860EFAA24FBCB893C299 /* location.png in Resources */ = {isa = PBXBuildFile; fileRef = D3C3F33BEF1C46F287DB6D94 /* location.png */; };
+		6E1D7B71EB67403F939BC547 /* female.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C780CA7FCF6430EAD9D1CFC /* female.png */; };
+		73D591DCCF734B7B9B5392AB /* thumbsup.png in Resources */ = {isa = PBXBuildFile; fileRef = F516EF138A9B4B5F8A116498 /* thumbsup.png */; };
+		74DD33642E3F4ADC801CCDFA /* enquiry.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C0FBB9D195C8416B8BB0D0A8 /* enquiry.jpeg */; };
+		767EF9B8F1694ABAB8954C7A /* mail.png in Resources */ = {isa = PBXBuildFile; fileRef = 47E6EA7BF3E445B9BDC0F6BD /* mail.png */; };
 		7699B88040F8A987B510C191 /* libPods-wealthia20-wealthia20Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-wealthia20-wealthia20Tests.a */; };
+		77C4991E7CED4557BD9FE607 /* backarrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 11F98606652B464E832B9507 /* backarrow.png */; };
+		77F7B8AC724942DB91E6D12A /* email.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EAFF4012D254846AD850D14 /* email.png */; };
+		7C42D95494A545229912B577 /* Rubik-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 737AB9A7E7D641F681133D7D /* Rubik-MediumItalic.ttf */; };
+		7DE9FD4D36C8473098B29439 /* sector.png in Resources */ = {isa = PBXBuildFile; fileRef = 330AB91A7D6A4644A059E9EE /* sector.png */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		83D5ADFB83834A2CB9DEA753 /* coyicon.png in Resources */ = {isa = PBXBuildFile; fileRef = BC52E28DDB904D7C8141410D /* coyicon.png */; };
+		9166BA5E38634516A43B5D85 /* Rubik-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3B1AC807D6E4464D83DE6D2D /* Rubik-ExtraBoldItalic.ttf */; };
+		9356AF21D34E469E8BB0F22F /* portfolio.png in Resources */ = {isa = PBXBuildFile; fileRef = AA8BA3AE928C4B7290BB6D86 /* portfolio.png */; };
+		97D2484C735F42648F7BB8A9 /* type.png in Resources */ = {isa = PBXBuildFile; fileRef = A800FE013DEE47FF9820F904 /* type.png */; };
+		9D0A79E22C9048C28DC28D8D /* search.png in Resources */ = {isa = PBXBuildFile; fileRef = 10F2202669B343BDB8051C61 /* search.png */; };
+		AB99AD40C01F400088DCB10B /* Rubik-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 31A493DCF4F445C58566840A /* Rubik-Medium.ttf */; };
+		B48E7F7D6B2A42B19EA2EE3B /* userProfile.png in Resources */ = {isa = PBXBuildFile; fileRef = 6067064AB2634A86BDCBD0D9 /* userProfile.png */; };
+		B7A6C7EFB8D54887AD8136A2 /* password.png in Resources */ = {isa = PBXBuildFile; fileRef = 59E0C4F94A774A3BBDE4607A /* password.png */; };
+		B821DD157E864055AC2EAE64 /* backarrw.png in Resources */ = {isa = PBXBuildFile; fileRef = 066C6CB5B703409080982BF7 /* backarrw.png */; };
+		B902CC449E8142A2BC3E0A22 /* company.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2DDB1207EF5F4B888BAA026A /* company.jpeg */; };
+		BB0D7F65990649208FA68771 /* bookmark.png in Resources */ = {isa = PBXBuildFile; fileRef = EFCD12A6B3A7421F973BE8B1 /* bookmark.png */; };
+		BBC79D34AA9D4F96A72B405B /* Rubik-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 558C8A7B9A144808ADF0C61F /* Rubik-LightItalic.ttf */; };
+		BC5B9B2715CD4914BC4D99CD /* info.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A50933D6D16449EA7F6C2E7 /* info.png */; };
+		BEBE6F51487744D1A42E4539 /* bookmark-filled.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FE6321D62974D93A367EBB0 /* bookmark-filled.png */; };
+		C2ADC3CBCFF2484A94414EC6 /* right-arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = CA78093AE147405B99547C73 /* right-arrow.png */; };
+		C72C5999C5F9408CA4C85D40 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C4DB2D800B6496D8C35334D /* back.png */; };
+		CB50389B63AC4146BB0D31CC /* Rubik-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AF48C368E6454BFFA3808F87 /* Rubik-Italic.ttf */; };
+		CC8CECE8224B4521BA16A1F3 /* indicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AF037422D744F3EBEDF8DF3 /* indicon.png */; };
+		CF1CB565434140C1BFD344D2 /* w_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CE57FC4988A4BBBA0266C95 /* w_logo.png */; };
+		D0A1FA051B7A433FBCA40951 /* lock.png in Resources */ = {isa = PBXBuildFile; fileRef = 739C6F783CB7417683DDF578 /* lock.png */; };
+		D0EFA72BE62148599833FE38 /* alert.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A7619762F314358A1D5BA1D /* alert.png */; };
+		D6B7395973B44F439D90EC95 /* Rubik-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7C0D45CA82EC4DC8B9A143B7 /* Rubik-Regular.ttf */; };
+		E4062612A1DA403BB62F280A /* phone.png in Resources */ = {isa = PBXBuildFile; fileRef = 2EA3D5094A3B4AA1AAAB696F /* phone.png */; };
+		E59FC7CDC01241AC8879BBEF /* arrow_forward_ios.png in Resources */ = {isa = PBXBuildFile; fileRef = 42D825BD46884D07AC09B16D /* arrow_forward_ios.png */; };
+		EB39738FB24749589C943B99 /* weclome1.png in Resources */ = {isa = PBXBuildFile; fileRef = EAC66C832B5A4005B6C9DE54 /* weclome1.png */; };
+		FCA259C92157483591534417 /* stop.png in Resources */ = {isa = PBXBuildFile; fileRef = 56036730E2654108B479CA1D /* stop.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,6 +95,11 @@
 		00E356EE1AD99517003FC87E /* wealthia20Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wealthia20Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* wealthia20Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = wealthia20Tests.m; sourceTree = "<group>"; };
+		066C6CB5B703409080982BF7 /* backarrw.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = backarrw.png; path = ../src/assets/icons/backarrw.png; sourceTree = "<group>"; };
+		06E23AE5F7B64807957CF073 /* welcome2.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = welcome2.png; path = ../src/assets/images/welcome/welcome2.png; sourceTree = "<group>"; };
+		0AF037422D744F3EBEDF8DF3 /* indicon.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = indicon.png; path = ../src/assets/images/icons/indicon.png; sourceTree = "<group>"; };
+		10F2202669B343BDB8051C61 /* search.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = search.png; path = ../src/assets/icons/search.png; sourceTree = "<group>"; };
+		11F98606652B464E832B9507 /* backarrow.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = backarrow.png; path = ../src/assets/icons/backarrow.png; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* wealthia20.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wealthia20.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = wealthia20/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = wealthia20/AppDelegate.mm; sourceTree = "<group>"; };
@@ -37,13 +107,73 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = wealthia20/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = wealthia20/main.m; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-wealthia20-wealthia20Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-wealthia20-wealthia20Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C4DB2D800B6496D8C35334D /* back.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = back.png; path = ../src/assets/icons/back.png; sourceTree = "<group>"; };
+		1FE6321D62974D93A367EBB0 /* bookmark-filled.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "bookmark-filled.png"; path = "../src/assets/icons/bookmark-filled.png"; sourceTree = "<group>"; };
+		25B6023002BF41D4ABF91EA9 /* Rubik-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Rubik-Bold.ttf"; path = "../src/assets/fonts/Rubik-Bold.ttf"; sourceTree = "<group>"; };
+		2A7619762F314358A1D5BA1D /* alert.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = alert.png; path = ../src/assets/icons/alert.png; sourceTree = "<group>"; };
+		2CE57FC4988A4BBBA0266C95 /* w_logo.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = w_logo.png; path = ../src/assets/images/w_logo.png; sourceTree = "<group>"; };
+		2D0044CC05554B2E80B48133 /* favorite.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = favorite.png; path = ../src/assets/icons/favorite.png; sourceTree = "<group>"; };
+		2DDB1207EF5F4B888BAA026A /* company.jpeg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = company.jpeg; path = ../src/assets/images/categories/company.jpeg; sourceTree = "<group>"; };
+		2EA3D5094A3B4AA1AAAB696F /* phone.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = phone.png; path = ../src/assets/icons/phone.png; sourceTree = "<group>"; };
+		2F9262C9A66F495F9C7F837F /* user.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = user.png; path = ../src/assets/images/icons/user.png; sourceTree = "<group>"; };
+		31A493DCF4F445C58566840A /* Rubik-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Rubik-Medium.ttf"; path = "../src/assets/fonts/Rubik-Medium.ttf"; sourceTree = "<group>"; };
+		3292CC4B6F4A49E29CCE2460 /* pwd2.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = pwd2.png; path = ../src/assets/icons/pwd2.png; sourceTree = "<group>"; };
+		330AB91A7D6A4644A059E9EE /* sector.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = sector.png; path = ../src/assets/icons/sector.png; sourceTree = "<group>"; };
+		3B1AC807D6E4464D83DE6D2D /* Rubik-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Rubik-ExtraBoldItalic.ttf"; path = "../src/assets/fonts/Rubik-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-wealthia20.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wealthia20.debug.xcconfig"; path = "Target Support Files/Pods-wealthia20/Pods-wealthia20.debug.xcconfig"; sourceTree = "<group>"; };
+		3CF99EA412B34C34B68C4B1C /* profile.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = profile.png; path = ../src/assets/icons/profile.png; sourceTree = "<group>"; };
+		3E46A87F8B39462FA07870D8 /* chat.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = chat.png; path = ../src/assets/icons/chat.png; sourceTree = "<group>"; };
+		42D77F1B22D243BA8D487B0F /* male.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = male.png; path = ../src/assets/icons/male.png; sourceTree = "<group>"; };
+		42D825BD46884D07AC09B16D /* arrow_forward_ios.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = arrow_forward_ios.png; path = ../src/assets/icons/arrow_forward_ios.png; sourceTree = "<group>"; };
+		4774A2CF77DD4E8AAADB1866 /* success_icon.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = success_icon.png; path = ../src/assets/icons/success_icon.png; sourceTree = "<group>"; };
+		47E6EA7BF3E445B9BDC0F6BD /* mail.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = mail.png; path = ../src/assets/icons/mail.png; sourceTree = "<group>"; };
+		558C8A7B9A144808ADF0C61F /* Rubik-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Rubik-LightItalic.ttf"; path = "../src/assets/fonts/Rubik-LightItalic.ttf"; sourceTree = "<group>"; };
+		56036730E2654108B479CA1D /* stop.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = stop.png; path = ../src/assets/icons/stop.png; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-wealthia20.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wealthia20.release.xcconfig"; path = "Target Support Files/Pods-wealthia20/Pods-wealthia20.release.xcconfig"; sourceTree = "<group>"; };
+		5996C91778564601A505388E /* Rubik-BlackItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Rubik-BlackItalic.ttf"; path = "../src/assets/fonts/Rubik-BlackItalic.ttf"; sourceTree = "<group>"; };
+		59D5C75923164BC49E8C8859 /* msgStatus.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = msgStatus.png; path = ../src/assets/icons/msgStatus.png; sourceTree = "<group>"; };
+		59E0C4F94A774A3BBDE4607A /* password.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = password.png; path = ../src/assets/icons/password.png; sourceTree = "<group>"; };
+		5A50933D6D16449EA7F6C2E7 /* info.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = info.png; path = ../src/assets/icons/info.png; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-wealthia20-wealthia20Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wealthia20-wealthia20Tests.debug.xcconfig"; path = "Target Support Files/Pods-wealthia20-wealthia20Tests/Pods-wealthia20-wealthia20Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-wealthia20.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-wealthia20.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6067064AB2634A86BDCBD0D9 /* userProfile.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = userProfile.png; path = ../src/assets/icons/userProfile.png; sourceTree = "<group>"; };
+		641E3CBF59B64E688F6DA097 /* listbg.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = listbg.png; path = ../src/assets/images/listbg.png; sourceTree = "<group>"; };
+		692D46A836014D9BBD96940F /* home.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = home.png; path = ../src/assets/icons/home.png; sourceTree = "<group>"; };
+		6C780CA7FCF6430EAD9D1CFC /* female.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = female.png; path = ../src/assets/icons/female.png; sourceTree = "<group>"; };
+		737AB9A7E7D641F681133D7D /* Rubik-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Rubik-MediumItalic.ttf"; path = "../src/assets/fonts/Rubik-MediumItalic.ttf"; sourceTree = "<group>"; };
+		739C6F783CB7417683DDF578 /* lock.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = lock.png; path = ../src/assets/images/icons/lock.png; sourceTree = "<group>"; };
+		786F08EB991347819030D1FB /* name.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = name.png; path = ../src/assets/icons/name.png; sourceTree = "<group>"; };
+		796861F28E5C4892B0564C56 /* Rubik-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Rubik-SemiBold.ttf"; path = "../src/assets/fonts/Rubik-SemiBold.ttf"; sourceTree = "<group>"; };
+		7C0D45CA82EC4DC8B9A143B7 /* Rubik-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Rubik-Regular.ttf"; path = "../src/assets/fonts/Rubik-Regular.ttf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = wealthia20/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8303084D34D94CBAA69832F6 /* logout2.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = logout2.png; path = ../src/assets/icons/logout2.png; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-wealthia20-wealthia20Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wealthia20-wealthia20Tests.release.xcconfig"; path = "Target Support Files/Pods-wealthia20-wealthia20Tests/Pods-wealthia20-wealthia20Tests.release.xcconfig"; sourceTree = "<group>"; };
+		8EAFF4012D254846AD850D14 /* email.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = email.png; path = ../src/assets/images/icons/email.png; sourceTree = "<group>"; };
+		93D66098A3464CCBAAF617F9 /* send.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = send.png; path = ../src/assets/icons/send.png; sourceTree = "<group>"; };
+		9932B940B3AC4D96871E2270 /* white_logo.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = white_logo.png; path = ../src/assets/images/white_logo.png; sourceTree = "<group>"; };
+		9F9B077EDF4C4A43816F3C1A /* Rubik-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Rubik-ExtraBold.ttf"; path = "../src/assets/fonts/Rubik-ExtraBold.ttf"; sourceTree = "<group>"; };
+		A800FE013DEE47FF9820F904 /* type.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = type.png; path = ../src/assets/icons/type.png; sourceTree = "<group>"; };
+		AA8BA3AE928C4B7290BB6D86 /* portfolio.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = portfolio.png; path = ../src/assets/icons/portfolio.png; sourceTree = "<group>"; };
+		AF48C368E6454BFFA3808F87 /* Rubik-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Rubik-Italic.ttf"; path = "../src/assets/fonts/Rubik-Italic.ttf"; sourceTree = "<group>"; };
+		B31B64132F8F43ED9106D281 /* settings.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = settings.png; path = ../src/assets/icons/settings.png; sourceTree = "<group>"; };
+		BA10CDC1D7FD4E6582D78EA5 /* state.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = state.png; path = ../src/assets/images/icons/state.png; sourceTree = "<group>"; };
+		BC52E28DDB904D7C8141410D /* coyicon.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = coyicon.png; path = ../src/assets/images/icons/coyicon.png; sourceTree = "<group>"; };
+		BCB6E7DC24B346AB9CD47DE4 /* Rubik-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Rubik-Black.ttf"; path = "../src/assets/fonts/Rubik-Black.ttf"; sourceTree = "<group>"; };
+		C0FBB9D195C8416B8BB0D0A8 /* enquiry.jpeg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = enquiry.jpeg; path = ../src/assets/images/categories/enquiry.jpeg; sourceTree = "<group>"; };
+		C6C76B466E89408490D41EA3 /* Rubik-SemiBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Rubik-SemiBoldItalic.ttf"; path = "../src/assets/fonts/Rubik-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		CA78093AE147405B99547C73 /* right-arrow.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "right-arrow.png"; path = "../src/assets/icons/right-arrow.png"; sourceTree = "<group>"; };
+		CC36EDCB18454EB78EE2160A /* all_inbox.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = all_inbox.png; path = ../src/assets/icons/all_inbox.png; sourceTree = "<group>"; };
+		D34A584ACAA64C688E1D8841 /* view.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = view.png; path = ../src/assets/icons/view.png; sourceTree = "<group>"; };
+		D3C3F33BEF1C46F287DB6D94 /* location.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = location.png; path = ../src/assets/icons/location.png; sourceTree = "<group>"; };
+		D9ACA02233A243C89DF91B5B /* Rubik-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Rubik-Light.ttf"; path = "../src/assets/fonts/Rubik-Light.ttf"; sourceTree = "<group>"; };
+		DEDA7866931B4DC2BA4CD6E8 /* msgRead.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = msgRead.png; path = ../src/assets/icons/msgRead.png; sourceTree = "<group>"; };
+		E7CEA33EB6E445FFA11DC6E0 /* loginbg.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = loginbg.png; path = ../src/assets/images/loginbg.png; sourceTree = "<group>"; };
+		EAC66C832B5A4005B6C9DE54 /* weclome1.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = weclome1.png; path = ../src/assets/images/welcome/weclome1.png; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		ED965B662B834512AC0CB347 /* Rubik-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Rubik-BoldItalic.ttf"; path = "../src/assets/fonts/Rubik-BoldItalic.ttf"; sourceTree = "<group>"; };
+		EFCD12A6B3A7421F973BE8B1 /* bookmark.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = bookmark.png; path = ../src/assets/icons/bookmark.png; sourceTree = "<group>"; };
+		F516EF138A9B4B5F8A116498 /* thumbsup.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = thumbsup.png; path = ../src/assets/icons/thumbsup.png; sourceTree = "<group>"; };
+		F5EB6FD5F10547D999567913 /* logout.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = logout.png; path = ../src/assets/icons/logout.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +252,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				D6FFCEC824F3424A8AAC124F /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -146,6 +277,79 @@
 				89C6BE57DB24E9ADA2F236DE /* Pods-wealthia20-wealthia20Tests.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		D6FFCEC824F3424A8AAC124F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BCB6E7DC24B346AB9CD47DE4 /* Rubik-Black.ttf */,
+				5996C91778564601A505388E /* Rubik-BlackItalic.ttf */,
+				25B6023002BF41D4ABF91EA9 /* Rubik-Bold.ttf */,
+				ED965B662B834512AC0CB347 /* Rubik-BoldItalic.ttf */,
+				9F9B077EDF4C4A43816F3C1A /* Rubik-ExtraBold.ttf */,
+				3B1AC807D6E4464D83DE6D2D /* Rubik-ExtraBoldItalic.ttf */,
+				AF48C368E6454BFFA3808F87 /* Rubik-Italic.ttf */,
+				D9ACA02233A243C89DF91B5B /* Rubik-Light.ttf */,
+				558C8A7B9A144808ADF0C61F /* Rubik-LightItalic.ttf */,
+				31A493DCF4F445C58566840A /* Rubik-Medium.ttf */,
+				737AB9A7E7D641F681133D7D /* Rubik-MediumItalic.ttf */,
+				7C0D45CA82EC4DC8B9A143B7 /* Rubik-Regular.ttf */,
+				796861F28E5C4892B0564C56 /* Rubik-SemiBold.ttf */,
+				C6C76B466E89408490D41EA3 /* Rubik-SemiBoldItalic.ttf */,
+				2A7619762F314358A1D5BA1D /* alert.png */,
+				CC36EDCB18454EB78EE2160A /* all_inbox.png */,
+				42D825BD46884D07AC09B16D /* arrow_forward_ios.png */,
+				1C4DB2D800B6496D8C35334D /* back.png */,
+				11F98606652B464E832B9507 /* backarrow.png */,
+				066C6CB5B703409080982BF7 /* backarrw.png */,
+				1FE6321D62974D93A367EBB0 /* bookmark-filled.png */,
+				EFCD12A6B3A7421F973BE8B1 /* bookmark.png */,
+				3E46A87F8B39462FA07870D8 /* chat.png */,
+				2D0044CC05554B2E80B48133 /* favorite.png */,
+				6C780CA7FCF6430EAD9D1CFC /* female.png */,
+				692D46A836014D9BBD96940F /* home.png */,
+				5A50933D6D16449EA7F6C2E7 /* info.png */,
+				D3C3F33BEF1C46F287DB6D94 /* location.png */,
+				F5EB6FD5F10547D999567913 /* logout.png */,
+				8303084D34D94CBAA69832F6 /* logout2.png */,
+				47E6EA7BF3E445B9BDC0F6BD /* mail.png */,
+				42D77F1B22D243BA8D487B0F /* male.png */,
+				DEDA7866931B4DC2BA4CD6E8 /* msgRead.png */,
+				59D5C75923164BC49E8C8859 /* msgStatus.png */,
+				786F08EB991347819030D1FB /* name.png */,
+				59E0C4F94A774A3BBDE4607A /* password.png */,
+				2EA3D5094A3B4AA1AAAB696F /* phone.png */,
+				AA8BA3AE928C4B7290BB6D86 /* portfolio.png */,
+				3CF99EA412B34C34B68C4B1C /* profile.png */,
+				3292CC4B6F4A49E29CCE2460 /* pwd2.png */,
+				CA78093AE147405B99547C73 /* right-arrow.png */,
+				10F2202669B343BDB8051C61 /* search.png */,
+				330AB91A7D6A4644A059E9EE /* sector.png */,
+				93D66098A3464CCBAAF617F9 /* send.png */,
+				B31B64132F8F43ED9106D281 /* settings.png */,
+				56036730E2654108B479CA1D /* stop.png */,
+				4774A2CF77DD4E8AAADB1866 /* success_icon.png */,
+				F516EF138A9B4B5F8A116498 /* thumbsup.png */,
+				A800FE013DEE47FF9820F904 /* type.png */,
+				6067064AB2634A86BDCBD0D9 /* userProfile.png */,
+				D34A584ACAA64C688E1D8841 /* view.png */,
+				2DDB1207EF5F4B888BAA026A /* company.jpeg */,
+				C0FBB9D195C8416B8BB0D0A8 /* enquiry.jpeg */,
+				BC52E28DDB904D7C8141410D /* coyicon.png */,
+				8EAFF4012D254846AD850D14 /* email.png */,
+				0AF037422D744F3EBEDF8DF3 /* indicon.png */,
+				739C6F783CB7417683DDF578 /* lock.png */,
+				BA10CDC1D7FD4E6582D78EA5 /* state.png */,
+				2F9262C9A66F495F9C7F837F /* user.png */,
+				641E3CBF59B64E688F6DA097 /* listbg.png */,
+				E7CEA33EB6E445FFA11DC6E0 /* loginbg.png */,
+				2CE57FC4988A4BBBA0266C95 /* w_logo.png */,
+				EAC66C832B5A4005B6C9DE54 /* weclome1.png */,
+				06E23AE5F7B64807957CF073 /* welcome2.png */,
+				9932B940B3AC4D96871E2270 /* white_logo.png */,
+			);
+			name = Resources;
+			path = "";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,6 +447,71 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				1FD3A8BE072F4B4E8140C659 /* Rubik-Black.ttf in Resources */,
+				13C40BA83D4D4FC0B7B9AE88 /* Rubik-BlackItalic.ttf in Resources */,
+				52F2538A1A664130AEB573AC /* Rubik-Bold.ttf in Resources */,
+				32BFE816143B48209674FF24 /* Rubik-BoldItalic.ttf in Resources */,
+				0C89D9F9133544DDB979762F /* Rubik-ExtraBold.ttf in Resources */,
+				9166BA5E38634516A43B5D85 /* Rubik-ExtraBoldItalic.ttf in Resources */,
+				CB50389B63AC4146BB0D31CC /* Rubik-Italic.ttf in Resources */,
+				596E0E3FFF194139AEBCDFD0 /* Rubik-Light.ttf in Resources */,
+				BBC79D34AA9D4F96A72B405B /* Rubik-LightItalic.ttf in Resources */,
+				AB99AD40C01F400088DCB10B /* Rubik-Medium.ttf in Resources */,
+				7C42D95494A545229912B577 /* Rubik-MediumItalic.ttf in Resources */,
+				D6B7395973B44F439D90EC95 /* Rubik-Regular.ttf in Resources */,
+				137E2824FB19431EAD35511C /* Rubik-SemiBold.ttf in Resources */,
+				074DA80679B24D2399B27414 /* Rubik-SemiBoldItalic.ttf in Resources */,
+				D0EFA72BE62148599833FE38 /* alert.png in Resources */,
+				3EF1B151D9F64FDD93B2DD62 /* all_inbox.png in Resources */,
+				E59FC7CDC01241AC8879BBEF /* arrow_forward_ios.png in Resources */,
+				C72C5999C5F9408CA4C85D40 /* back.png in Resources */,
+				77C4991E7CED4557BD9FE607 /* backarrow.png in Resources */,
+				B821DD157E864055AC2EAE64 /* backarrw.png in Resources */,
+				BEBE6F51487744D1A42E4539 /* bookmark-filled.png in Resources */,
+				BB0D7F65990649208FA68771 /* bookmark.png in Resources */,
+				24E11C13E14A4542B31B59F1 /* chat.png in Resources */,
+				3933E6697C55477881E5EDE0 /* favorite.png in Resources */,
+				6E1D7B71EB67403F939BC547 /* female.png in Resources */,
+				0D58DDFC4BFB4355B288D704 /* home.png in Resources */,
+				BC5B9B2715CD4914BC4D99CD /* info.png in Resources */,
+				65F0860EFAA24FBCB893C299 /* location.png in Resources */,
+				370CED5AC1C647B490CDFB8A /* logout.png in Resources */,
+				37AAEDBF1AF741C9A149BA8F /* logout2.png in Resources */,
+				767EF9B8F1694ABAB8954C7A /* mail.png in Resources */,
+				6125899F9AB64B4F92BA3FE5 /* male.png in Resources */,
+				0379F7F9A507474DB0A21DC9 /* msgRead.png in Resources */,
+				3FA9D1ADDD1E444B8D096AB8 /* msgStatus.png in Resources */,
+				212988E641274D8AA6B6290C /* name.png in Resources */,
+				B7A6C7EFB8D54887AD8136A2 /* password.png in Resources */,
+				E4062612A1DA403BB62F280A /* phone.png in Resources */,
+				9356AF21D34E469E8BB0F22F /* portfolio.png in Resources */,
+				31E8A0AA53CB4E0FA796A8D9 /* profile.png in Resources */,
+				049715B091194AD7BEF3DCEF /* pwd2.png in Resources */,
+				C2ADC3CBCFF2484A94414EC6 /* right-arrow.png in Resources */,
+				9D0A79E22C9048C28DC28D8D /* search.png in Resources */,
+				7DE9FD4D36C8473098B29439 /* sector.png in Resources */,
+				31E73DDFB2274DBE92B82129 /* send.png in Resources */,
+				212C77836C494300BBAD6B90 /* settings.png in Resources */,
+				FCA259C92157483591534417 /* stop.png in Resources */,
+				31929AD5BF724ECD859261BE /* success_icon.png in Resources */,
+				73D591DCCF734B7B9B5392AB /* thumbsup.png in Resources */,
+				97D2484C735F42648F7BB8A9 /* type.png in Resources */,
+				B48E7F7D6B2A42B19EA2EE3B /* userProfile.png in Resources */,
+				605CDFE21AC94A5CA00E8625 /* view.png in Resources */,
+				B902CC449E8142A2BC3E0A22 /* company.jpeg in Resources */,
+				74DD33642E3F4ADC801CCDFA /* enquiry.jpeg in Resources */,
+				83D5ADFB83834A2CB9DEA753 /* coyicon.png in Resources */,
+				77F7B8AC724942DB91E6D12A /* email.png in Resources */,
+				CC8CECE8224B4521BA16A1F3 /* indicon.png in Resources */,
+				D0A1FA051B7A433FBCA40951 /* lock.png in Resources */,
+				5525ACFE8B5C47E4A9BB316E /* state.png in Resources */,
+				1849EE83D4534FA3901C3F12 /* user.png in Resources */,
+				20D7BF512792401EBB9E8C03 /* listbg.png in Resources */,
+				58D7C8BF9A6344F6A5420055 /* loginbg.png in Resources */,
+				CF1CB565434140C1BFD344D2 /* w_logo.png in Resources */,
+				EB39738FB24749589C943B99 /* weclome1.png in Resources */,
+				3545040FF5D641ACA2584610 /* welcome2.png in Resources */,
+				08267DDD36E143B688C9D36D /* white_logo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -544,7 +813,7 @@
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -572,6 +841,7 @@
 				);
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "$(inherited)";
 				OTHER_CPLUSPLUSFLAGS = (
 					"$(OTHER_CFLAGS)",
 					"-DFOLLY_NO_CONFIG",
@@ -579,7 +849,13 @@
 					"-DFOLLY_USE_LIBCPP=1",
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					" ",
+				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
+				USE_HERMES = true;
 			};
 			name = Debug;
 		};
@@ -616,7 +892,7 @@
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -636,6 +912,7 @@
 					"\"$(inherited)\"",
 				);
 				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CFLAGS = "$(inherited)";
 				OTHER_CPLUSPLUSFLAGS = (
 					"$(OTHER_CFLAGS)",
 					"-DFOLLY_NO_CONFIG",
@@ -643,7 +920,13 @@
 					"-DFOLLY_USE_LIBCPP=1",
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					" ",
+				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
+				USE_HERMES = true;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
