@@ -43,6 +43,8 @@ export const AuthProvider = ({children, navigation}) => {
             email: username,
             password: password
           };
+
+          console.log(APIBaseUrl.developmentUrl + 'clients/clientLogin');
         
           axios.post(APIBaseUrl.developmentUrl + 'clients/clientLogin', data, options)
           .then(response => {

@@ -1,15 +1,15 @@
 import React, {useState, useEffect, useCallback} from 'react'
-import { StyleSheet,TextInput, StatusBar, Image, Text, View, Alert, TouchableOpacity } from 'react-native'
+import { StyleSheet,Platform, StatusBar, Image, Text, View, Alert, KeyboardAvoidingView } from 'react-native'
 import { SafeAreaView } from 'react-native-safe-area-context';
 import axios from 'axios';
 import { COLORS, images, FONTS, icons, APIBaseUrl } from '../../../constants';
 import {InnerHeader, Loader} from '../../components';
-import { KeyboardAwareScrollView } from 'react-native-keyboard-aware-scroll-view'
 import {widthPercentageToDP as wp, heightPercentageToDP as hp} from 'react-native-responsive-screen';
 import { useSelector } from 'react-redux';
 import moment from 'moment';
 import { GiftedChat, Send, Bubble } from 'react-native-gifted-chat'
 import { ScrollView } from 'react-native-gesture-handler';
+import KeyboardSpacer from 'react-native-keyboard-spacer';
 
 const ChatScreen = ({navigation, route}) => {
 
@@ -303,8 +303,9 @@ const onSend = useCallback((messages = []) => {
                 onSend={messages => onSend(messages)}
                 textInputStyle={{
                     fontFamily: FONTS.RUBIK_REGULAR,
-                    fontSize: wp(3.8),
+                    fontSize: wp(3.3),
                     marginHorizontal: wp(10),
+                    color: COLORS.fgDarkGrey
                 }}
                 renderBubble={(props) => (
                     <Bubble 
@@ -318,7 +319,7 @@ const onSend = useCallback((messages = []) => {
                             left: {
                                 marginBottom: wp(3),
                                 fontFamily: FONTS.RUBIK_REGULAR,
-                                fontSize: wp(3),
+                                fontSize: wp(2.8),
                                 marginLeft: wp(-9)
                             }
                         }}
@@ -354,7 +355,7 @@ const onSend = useCallback((messages = []) => {
                   _id: customerData.CLIENT_ID,
                 }}
               />
-
+              {Platform.OS === 'android' ? <KeyboardSpacer /> : null }
 
                 {/** hell
                 <ScrollView
@@ -393,6 +394,7 @@ const onSend = useCallback((messages = []) => {
                 </View>
             </View>
         </SafeAreaView>
+
   )
 }
 
@@ -498,7 +500,7 @@ const styles = StyleSheet.create({
   txtChat: {
     fontFamily: FONTS.RUBIK_MEDIUM,
     color: "#CACEDF",
-    fontSize: wp(3.8)
+    fontSize: Platform.OS === 'android' ? wp(3.5) : wp(3.8)
   },
   chatTitle: {
     flexDirection: 'row',
@@ -601,7 +603,7 @@ const styles = StyleSheet.create({
     hdrTxt: {
         fontFamily: FONTS.RUBIK_MEDIUM,
         color: COLORS.fgWhite,
-        fontSize: wp(6)
+        fontSize: wp(5.3)
     },
     subHdr: {
         marginTop: wp(10),

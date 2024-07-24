@@ -17,7 +17,6 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 import { COLORS, images, FONTS, icons, APIBaseUrl } from '../../../constants';
 import { InnerHeader, ChannelCard, ProviderCard, Loader } from '../../components'
 import {widthPercentageToDP as wp, heightPercentageToDP as hp} from 'react-native-responsive-screen';
-import { BottomSheetModal } from '@gorhom/bottom-sheet';
 
 const ProviderListScreen = ({navigation, route}) => {
 

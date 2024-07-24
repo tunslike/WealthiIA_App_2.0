@@ -515,10 +515,10 @@ const styles = StyleSheet.create({
   },
   loginBtn: {
     fontFamily: FONTS.RUBIK_MEDIUM,
-    fontSize: wp(3.7),
+    fontSize: wp(3.5),
     color: COLORS.fgDarkGrey,
     textAlign: 'center',
-    marginTop: wp(5)
+    marginTop: wp(8)
   },
   terms: {
     marginHorizontal: wp(5.2),
@@ -530,7 +530,7 @@ const styles = StyleSheet.create({
   },
   notActiveTxt: {
     fontFamily: FONTS.RUBIK_MEDIUM,
-    fontSize: wp(3.7),
+    fontSize: wp(3.5),
     color: COLORS.bgColor
   },
   notActive: {
@@ -542,12 +542,12 @@ const styles = StyleSheet.create({
     borderWidth: 1.2,
     borderStyle: 'solid',
     paddingHorizontal: wp(10),
-    paddingVertical: wp(3.6),
+    paddingVertical: wp(3.2),
     borderRadius: wp(2)
   },
   activeTxt: {
     fontFamily: FONTS.RUBIK_MEDIUM,
-    fontSize: wp(3.7),
+    fontSize: wp(3.5),
     color: COLORS.fgWhite
   },
   activeTab: {
@@ -557,7 +557,7 @@ const styles = StyleSheet.create({
     columnGap: wp(1.8),
     backgroundColor: COLORS.bgColor,
     paddingHorizontal: wp(10),
-    paddingVertical: wp(3.8),
+    paddingVertical: wp(3.5),
     borderRadius: wp(2)
   },
   tabBox: {
@@ -565,17 +565,18 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'space-between',
     alignItems: 'center',
-    marginHorizontal: wp(6),
+    marginHorizontal: wp(5),
     marginTop: wp(5),
+    columnGap: wp(3)
   },
   logintxt: {
     fontFamily: FONTS.RUBIK_MEDIUM,
-    fontSize: wp(4),
+    fontSize: wp(3.5),
     color: COLORS.fgWhite
 },
 createtxt: {
     fontFamily: FONTS.RUBIK_MEDIUM,
-    fontSize: wp(4),
+    fontSize: wp(3.5),
     color: COLORS.fgWhite
 },
 btnLogin: {
@@ -592,7 +593,7 @@ btnCreate: {
     marginHorizontal: wp(4),
     backgroundColor: COLORS.fgOrange,
     alignItems: 'center',
-    paddingVertical: wp(5.3),
+    paddingVertical: (Platform.OS === 'android') ? wp(4.5) : wp(5.3),
     paddingHorizontal: wp(5),
     borderRadius: wp(3)
 },
@@ -600,7 +601,7 @@ btnCreateCoy: {
   marginHorizontal: wp(4),
   backgroundColor: COLORS.fgOrange,
   alignItems: 'center',
-  paddingVertical: wp(5.3),
+  paddingVertical: wp(4.5),
   paddingHorizontal: wp(5),
   borderRadius: wp(3)
 },
@@ -624,14 +625,14 @@ loginBox: {
 },
 desc: {
     fontFamily: FONTS.RUBIK_REGULAR,
-    fontSize: wp(3.4),
+    fontSize: wp(3.3),
     color: COLORS.fgCatHeader,
     marginTop: wp(1.5)
 },
 title: {
     fontFamily: FONTS.RUBIK_MEDIUM,
     color: COLORS.fgDarkGrey,
-    fontSize: wp(6.6)
+    fontSize: wp(6)
 },
 signInBox: {
     marginTop: wp(6),

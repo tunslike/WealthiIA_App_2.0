@@ -41,14 +41,14 @@ const styles = StyleSheet.create({
     desc: {
         color: COLORS.fgTabColor,
         fontFamily: FONTS.RUBIK_LIGHT,
-        fontSize: wp(3.5),
-        marginRight: wp(2.5)
+        fontSize: wp(3.3),
+        marginRight: wp(5)
     },
     title: {
         color: COLORS.fgCatTitle,
         fontFamily: FONTS.RUBIK_MEDIUM,
-        fontSize: wp(5),
-        marginBottom: wp(5)
+        fontSize: wp(4.3),
+        marginBottom: wp(4)
     },
     display: {
         height: wp(22),
@@ -59,7 +59,7 @@ const styles = StyleSheet.create({
     container: {
         backgroundColor: COLORS.fgWhite,
         borderRadius: wp(4),
-        padding: wp(3),
+        padding: wp(2),
         flexDirection: 'row',
         justifyContent: 'space-between',
         alignItems: 'center',

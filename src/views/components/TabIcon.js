@@ -29,7 +29,7 @@ const TabIcon = ({focused, icon, title, addStyle}) => {
 
 const styles = StyleSheet.create({
     focusText: {
-        fontSize: wp(3.3),
+        fontSize: wp(3.1),
         fontFamily: FONTS.RUBIK_REGULAR,
     },
     isFocusedTab: {

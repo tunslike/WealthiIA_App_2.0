@@ -115,7 +115,7 @@ const styles = StyleSheet.create({
     titleTxt: {
         fontFamily: FONTS.RUBIK_MEDIUM,
         color: COLORS.fgWhite,
-        fontSize: wp(6.5)
+        fontSize: wp(6)
     },
     title: {
         marginHorizontal: wp(5),

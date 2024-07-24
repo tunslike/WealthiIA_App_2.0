@@ -1,4 +1,4 @@
-package com.wealthia20
+package com.innovetsolutions.wealthia
 
 import android.app.Application
 import com.facebook.react.PackageList

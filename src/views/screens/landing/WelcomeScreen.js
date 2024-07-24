@@ -60,18 +60,18 @@ const styles = StyleSheet.create({
     backgroundColor: COLORS.fgWhite,
     borderRadius: wp(3),
     paddingHorizontal: wp(4),
-    paddingVertical: wp(5.5),
+    paddingVertical: Platform.OS === 'android' ? wp(4.5) : wp(5.5),
     marginTop: wp(3)
   },
   btnLogintxt: {
     fontFamily: FONTS.RUBIK_MEDIUM,
-    fontSize: wp(4.3),
+    fontSize: wp(4),
     color: COLORS.fgDarkGrey,
     textAlign: 'center'
   },
   btnStartedTxt: {
     fontFamily: FONTS.RUBIK_MEDIUM,
-    fontSize: wp(4.3),
+    fontSize: wp(4),
     color: COLORS.fgWhite,
     textAlign: 'center'
   },
@@ -79,16 +79,16 @@ const styles = StyleSheet.create({
     backgroundColor: COLORS.fgOrange,
     borderRadius: wp(3),
     paddingHorizontal: wp(4),
-    paddingVertical: wp(5.5),
+    paddingVertical: Platform.OS === 'android' ? wp(4.5) : wp(5.5),
   },
   btnBody: {
       marginHorizontal: wp(5),
-      marginTop: wp(7),
+      marginTop: wp(10),
       marginBottom: wp(20)
   },
   introtxt: {
     fontFamily: FONTS.RUBIK_MEDIUM,
-    fontSize: wp(4.3),
+    fontSize: wp(4),
     color: COLORS.fgButtonBorder,
     marginTop: wp(5),
     width: wp(80),
@@ -96,7 +96,7 @@ const styles = StyleSheet.create({
   },
   welcomeTxt: {
     fontFamily: FONTS.RUBIK_MEDIUM,
-    fontSize: wp(11),
+    fontSize: wp(10),
     color: COLORS.fgWhite
   },
   welcomeArea: {
@@ -105,7 +105,7 @@ const styles = StyleSheet.create({
     marginBottom: wp(10)
   },
   logoArea: {
-    marginTop: wp(10),
+    marginTop: wp(8),
     alignItems: 'flex-end',
     marginHorizontal: wp(5)
   },

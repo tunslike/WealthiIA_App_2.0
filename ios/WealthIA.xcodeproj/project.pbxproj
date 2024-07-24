@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* wealthia20Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* wealthia20Tests.m */; };
+		00E356F31AD99517003FC87E /* WealthIATests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* WealthIATests.m */; };
 		0379F7F9A507474DB0A21DC9 /* msgRead.png in Resources */ = {isa = PBXBuildFile; fileRef = DEDA7866931B4DC2BA4CD6E8 /* msgRead.png */; };
 		049715B091194AD7BEF3DCEF /* pwd2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3292CC4B6F4A49E29CCE2460 /* pwd2.png */; };
 		074DA80679B24D2399B27414 /* Rubik-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C6C76B466E89408490D41EA3 /* Rubik-SemiBoldItalic.ttf */; };
 		08267DDD36E143B688C9D36D /* white_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 9932B940B3AC4D96871E2270 /* white_logo.png */; };
-		0C80B921A6F3F58F76C31292 /* libPods-wealthia20.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-wealthia20.a */; };
+		0C80B921A6F3F58F76C31292 /* libPods-WealthIA.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-WealthIA.a */; };
 		0C89D9F9133544DDB979762F /* Rubik-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9F9B077EDF4C4A43816F3C1A /* Rubik-ExtraBold.ttf */; };
 		0D58DDFC4BFB4355B288D704 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 692D46A836014D9BBD96940F /* home.png */; };
 		137E2824FB19431EAD35511C /* Rubik-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 796861F28E5C4892B0564C56 /* Rubik-SemiBold.ttf */; };
@@ -47,7 +47,7 @@
 		73D591DCCF734B7B9B5392AB /* thumbsup.png in Resources */ = {isa = PBXBuildFile; fileRef = F516EF138A9B4B5F8A116498 /* thumbsup.png */; };
 		74DD33642E3F4ADC801CCDFA /* enquiry.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C0FBB9D195C8416B8BB0D0A8 /* enquiry.jpeg */; };
 		767EF9B8F1694ABAB8954C7A /* mail.png in Resources */ = {isa = PBXBuildFile; fileRef = 47E6EA7BF3E445B9BDC0F6BD /* mail.png */; };
-		7699B88040F8A987B510C191 /* libPods-wealthia20-wealthia20Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-wealthia20-wealthia20Tests.a */; };
+		7699B88040F8A987B510C191 /* libPods-WealthIA-WealthIATests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-WealthIA-WealthIATests.a */; };
 		77C4991E7CED4557BD9FE607 /* backarrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 11F98606652B464E832B9507 /* backarrow.png */; };
 		77F7B8AC724942DB91E6D12A /* email.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EAFF4012D254846AD850D14 /* email.png */; };
 		7C42D95494A545229912B577 /* Rubik-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 737AB9A7E7D641F681133D7D /* Rubik-MediumItalic.ttf */; };
@@ -87,26 +87,26 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = wealthia20;
+			remoteInfo = WealthIA;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00E356EE1AD99517003FC87E /* wealthia20Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wealthia20Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* WealthIATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WealthIATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* wealthia20Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = wealthia20Tests.m; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* WealthIATests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WealthIATests.m; sourceTree = "<group>"; };
 		066C6CB5B703409080982BF7 /* backarrw.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = backarrw.png; path = ../src/assets/icons/backarrw.png; sourceTree = "<group>"; };
 		06E23AE5F7B64807957CF073 /* welcome2.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = welcome2.png; path = ../src/assets/images/welcome/welcome2.png; sourceTree = "<group>"; };
 		0AF037422D744F3EBEDF8DF3 /* indicon.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = indicon.png; path = ../src/assets/images/icons/indicon.png; sourceTree = "<group>"; };
 		10F2202669B343BDB8051C61 /* search.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = search.png; path = ../src/assets/icons/search.png; sourceTree = "<group>"; };
 		11F98606652B464E832B9507 /* backarrow.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = backarrow.png; path = ../src/assets/icons/backarrow.png; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* wealthia20.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wealthia20.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = wealthia20/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = wealthia20/AppDelegate.mm; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = wealthia20/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = wealthia20/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = wealthia20/main.m; sourceTree = "<group>"; };
-		19F6CBCC0A4E27FBF8BF4A61 /* libPods-wealthia20-wealthia20Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-wealthia20-wealthia20Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07F961A680F5B00A75B9A /* WealthIA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WealthIA.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = WealthIA/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = WealthIA/AppDelegate.mm; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = WealthIA/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = WealthIA/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = WealthIA/main.m; sourceTree = "<group>"; };
+		19F6CBCC0A4E27FBF8BF4A61 /* libPods-WealthIA-WealthIATests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WealthIA-WealthIATests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C4DB2D800B6496D8C35334D /* back.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = back.png; path = ../src/assets/icons/back.png; sourceTree = "<group>"; };
 		1FE6321D62974D93A367EBB0 /* bookmark-filled.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "bookmark-filled.png"; path = "../src/assets/icons/bookmark-filled.png"; sourceTree = "<group>"; };
 		25B6023002BF41D4ABF91EA9 /* Rubik-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Rubik-Bold.ttf"; path = "../src/assets/fonts/Rubik-Bold.ttf"; sourceTree = "<group>"; };
@@ -120,7 +120,7 @@
 		3292CC4B6F4A49E29CCE2460 /* pwd2.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = pwd2.png; path = ../src/assets/icons/pwd2.png; sourceTree = "<group>"; };
 		330AB91A7D6A4644A059E9EE /* sector.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = sector.png; path = ../src/assets/icons/sector.png; sourceTree = "<group>"; };
 		3B1AC807D6E4464D83DE6D2D /* Rubik-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Rubik-ExtraBoldItalic.ttf"; path = "../src/assets/fonts/Rubik-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
-		3B4392A12AC88292D35C810B /* Pods-wealthia20.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wealthia20.debug.xcconfig"; path = "Target Support Files/Pods-wealthia20/Pods-wealthia20.debug.xcconfig"; sourceTree = "<group>"; };
+		3B4392A12AC88292D35C810B /* Pods-WealthIA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WealthIA.debug.xcconfig"; path = "Target Support Files/Pods-WealthIA/Pods-WealthIA.debug.xcconfig"; sourceTree = "<group>"; };
 		3CF99EA412B34C34B68C4B1C /* profile.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = profile.png; path = ../src/assets/icons/profile.png; sourceTree = "<group>"; };
 		3E46A87F8B39462FA07870D8 /* chat.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = chat.png; path = ../src/assets/icons/chat.png; sourceTree = "<group>"; };
 		42D77F1B22D243BA8D487B0F /* male.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = male.png; path = ../src/assets/icons/male.png; sourceTree = "<group>"; };
@@ -129,13 +129,13 @@
 		47E6EA7BF3E445B9BDC0F6BD /* mail.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = mail.png; path = ../src/assets/icons/mail.png; sourceTree = "<group>"; };
 		558C8A7B9A144808ADF0C61F /* Rubik-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Rubik-LightItalic.ttf"; path = "../src/assets/fonts/Rubik-LightItalic.ttf"; sourceTree = "<group>"; };
 		56036730E2654108B479CA1D /* stop.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = stop.png; path = ../src/assets/icons/stop.png; sourceTree = "<group>"; };
-		5709B34CF0A7D63546082F79 /* Pods-wealthia20.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wealthia20.release.xcconfig"; path = "Target Support Files/Pods-wealthia20/Pods-wealthia20.release.xcconfig"; sourceTree = "<group>"; };
+		5709B34CF0A7D63546082F79 /* Pods-WealthIA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WealthIA.release.xcconfig"; path = "Target Support Files/Pods-WealthIA/Pods-WealthIA.release.xcconfig"; sourceTree = "<group>"; };
 		5996C91778564601A505388E /* Rubik-BlackItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Rubik-BlackItalic.ttf"; path = "../src/assets/fonts/Rubik-BlackItalic.ttf"; sourceTree = "<group>"; };
 		59D5C75923164BC49E8C8859 /* msgStatus.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = msgStatus.png; path = ../src/assets/icons/msgStatus.png; sourceTree = "<group>"; };
 		59E0C4F94A774A3BBDE4607A /* password.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = password.png; path = ../src/assets/icons/password.png; sourceTree = "<group>"; };
 		5A50933D6D16449EA7F6C2E7 /* info.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = info.png; path = ../src/assets/icons/info.png; sourceTree = "<group>"; };
-		5B7EB9410499542E8C5724F5 /* Pods-wealthia20-wealthia20Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wealthia20-wealthia20Tests.debug.xcconfig"; path = "Target Support Files/Pods-wealthia20-wealthia20Tests/Pods-wealthia20-wealthia20Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		5DCACB8F33CDC322A6C60F78 /* libPods-wealthia20.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-wealthia20.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B7EB9410499542E8C5724F5 /* Pods-WealthIA-WealthIATests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WealthIA-WealthIATests.debug.xcconfig"; path = "Target Support Files/Pods-WealthIA-WealthIATests/Pods-WealthIA-WealthIATests.debug.xcconfig"; sourceTree = "<group>"; };
+		5DCACB8F33CDC322A6C60F78 /* libPods-WealthIA.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WealthIA.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6067064AB2634A86BDCBD0D9 /* userProfile.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = userProfile.png; path = ../src/assets/icons/userProfile.png; sourceTree = "<group>"; };
 		641E3CBF59B64E688F6DA097 /* listbg.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = listbg.png; path = ../src/assets/images/listbg.png; sourceTree = "<group>"; };
 		692D46A836014D9BBD96940F /* home.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = home.png; path = ../src/assets/icons/home.png; sourceTree = "<group>"; };
@@ -145,9 +145,9 @@
 		786F08EB991347819030D1FB /* name.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = name.png; path = ../src/assets/icons/name.png; sourceTree = "<group>"; };
 		796861F28E5C4892B0564C56 /* Rubik-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Rubik-SemiBold.ttf"; path = "../src/assets/fonts/Rubik-SemiBold.ttf"; sourceTree = "<group>"; };
 		7C0D45CA82EC4DC8B9A143B7 /* Rubik-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Rubik-Regular.ttf"; path = "../src/assets/fonts/Rubik-Regular.ttf"; sourceTree = "<group>"; };
-		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = wealthia20/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = WealthIA/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8303084D34D94CBAA69832F6 /* logout2.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = logout2.png; path = ../src/assets/icons/logout2.png; sourceTree = "<group>"; };
-		89C6BE57DB24E9ADA2F236DE /* Pods-wealthia20-wealthia20Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wealthia20-wealthia20Tests.release.xcconfig"; path = "Target Support Files/Pods-wealthia20-wealthia20Tests/Pods-wealthia20-wealthia20Tests.release.xcconfig"; sourceTree = "<group>"; };
+		89C6BE57DB24E9ADA2F236DE /* Pods-WealthIA-WealthIATests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WealthIA-WealthIATests.release.xcconfig"; path = "Target Support Files/Pods-WealthIA-WealthIATests/Pods-WealthIA-WealthIATests.release.xcconfig"; sourceTree = "<group>"; };
 		8EAFF4012D254846AD850D14 /* email.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = email.png; path = ../src/assets/images/icons/email.png; sourceTree = "<group>"; };
 		93D66098A3464CCBAAF617F9 /* send.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = send.png; path = ../src/assets/icons/send.png; sourceTree = "<group>"; };
 		9932B940B3AC4D96871E2270 /* white_logo.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = white_logo.png; path = ../src/assets/images/white_logo.png; sourceTree = "<group>"; };
@@ -181,7 +181,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7699B88040F8A987B510C191 /* libPods-wealthia20-wealthia20Tests.a in Frameworks */,
+				7699B88040F8A987B510C191 /* libPods-WealthIA-WealthIATests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,20 +189,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C80B921A6F3F58F76C31292 /* libPods-wealthia20.a in Frameworks */,
+				0C80B921A6F3F58F76C31292 /* libPods-WealthIA.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* wealthia20Tests */ = {
+		00E356EF1AD99517003FC87E /* WealthIATests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* wealthia20Tests.m */,
+				00E356F21AD99517003FC87E /* WealthIATests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = wealthia20Tests;
+			path = WealthIATests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -213,7 +213,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* wealthia20 */ = {
+		13B07FAE1A68108700A75B9A /* WealthIA */ = {
 			isa = PBXGroup;
 			children = (
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
@@ -223,15 +223,15 @@
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = wealthia20;
+			name = WealthIA;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				5DCACB8F33CDC322A6C60F78 /* libPods-wealthia20.a */,
-				19F6CBCC0A4E27FBF8BF4A61 /* libPods-wealthia20-wealthia20Tests.a */,
+				5DCACB8F33CDC322A6C60F78 /* libPods-WealthIA.a */,
+				19F6CBCC0A4E27FBF8BF4A61 /* libPods-WealthIA-WealthIATests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -246,9 +246,9 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* wealthia20 */,
+				13B07FAE1A68108700A75B9A /* WealthIA */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* wealthia20Tests */,
+				00E356EF1AD99517003FC87E /* WealthIATests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
@@ -262,8 +262,8 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* wealthia20.app */,
-				00E356EE1AD99517003FC87E /* wealthia20Tests.xctest */,
+				13B07F961A680F5B00A75B9A /* WealthIA.app */,
+				00E356EE1AD99517003FC87E /* WealthIATests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -271,10 +271,10 @@
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3B4392A12AC88292D35C810B /* Pods-wealthia20.debug.xcconfig */,
-				5709B34CF0A7D63546082F79 /* Pods-wealthia20.release.xcconfig */,
-				5B7EB9410499542E8C5724F5 /* Pods-wealthia20-wealthia20Tests.debug.xcconfig */,
-				89C6BE57DB24E9ADA2F236DE /* Pods-wealthia20-wealthia20Tests.release.xcconfig */,
+				3B4392A12AC88292D35C810B /* Pods-WealthIA.debug.xcconfig */,
+				5709B34CF0A7D63546082F79 /* Pods-WealthIA.release.xcconfig */,
+				5B7EB9410499542E8C5724F5 /* Pods-WealthIA-WealthIATests.debug.xcconfig */,
+				89C6BE57DB24E9ADA2F236DE /* Pods-WealthIA-WealthIATests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -355,9 +355,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* wealthia20Tests */ = {
+		00E356ED1AD99517003FC87E /* WealthIATests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "wealthia20Tests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "WealthIATests" */;
 			buildPhases = (
 				A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
@@ -371,14 +371,13 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = wealthia20Tests;
-			productName = wealthia20Tests;
-			productReference = 00E356EE1AD99517003FC87E /* wealthia20Tests.xctest */;
+			name = WealthIATests;
+			productReference = 00E356EE1AD99517003FC87E /* WealthIATests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* wealthia20 */ = {
+		13B07F861A680F5B00A75B9A /* WealthIA */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "wealthia20" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "WealthIA" */;
 			buildPhases = (
 				C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */,
 				13B07F871A680F5B00A75B9A /* Sources */,
@@ -392,9 +391,9 @@
 			);
 			dependencies = (
 			);
-			name = wealthia20;
-			productName = wealthia20;
-			productReference = 13B07F961A680F5B00A75B9A /* wealthia20.app */;
+			name = WealthIA;
+			productName = WealthIA;
+			productReference = 13B07F961A680F5B00A75B9A /* WealthIA.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -414,7 +413,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "wealthia20" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "WealthIA" */;
 			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -427,8 +426,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* wealthia20 */,
-				00E356ED1AD99517003FC87E /* wealthia20Tests */,
+				13B07F861A680F5B00A75B9A /* WealthIA */,
+				00E356ED1AD99517003FC87E /* WealthIATests */,
 			);
 		};
 /* End PBXProject section */
@@ -540,15 +539,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-wealthia20/Pods-wealthia20-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-WealthIA/Pods-WealthIA-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-wealthia20/Pods-wealthia20-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-WealthIA/Pods-WealthIA-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-wealthia20/Pods-wealthia20-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WealthIA/Pods-WealthIA-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */ = {
@@ -566,7 +565,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-wealthia20-wealthia20Tests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-WealthIA-WealthIATests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -588,7 +587,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-wealthia20-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-WealthIA-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -601,15 +600,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-wealthia20-wealthia20Tests/Pods-wealthia20-wealthia20Tests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-WealthIA-WealthIATests/Pods-WealthIA-WealthIATests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-wealthia20-wealthia20Tests/Pods-wealthia20-wealthia20Tests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-WealthIA-WealthIATests/Pods-WealthIA-WealthIATests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-wealthia20-wealthia20Tests/Pods-wealthia20-wealthia20Tests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WealthIA-WealthIATests/Pods-WealthIA-WealthIATests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
@@ -618,15 +617,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-wealthia20/Pods-wealthia20-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-WealthIA/Pods-WealthIA-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-wealthia20/Pods-wealthia20-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-WealthIA/Pods-WealthIA-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-wealthia20/Pods-wealthia20-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WealthIA/Pods-WealthIA-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */ = {
@@ -635,15 +634,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-wealthia20-wealthia20Tests/Pods-wealthia20-wealthia20Tests-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-WealthIA-WealthIATests/Pods-WealthIA-WealthIATests-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-wealthia20-wealthia20Tests/Pods-wealthia20-wealthia20Tests-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-WealthIA-WealthIATests/Pods-WealthIA-WealthIATests-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-wealthia20-wealthia20Tests/Pods-wealthia20-wealthia20Tests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WealthIA-WealthIATests/Pods-WealthIA-WealthIATests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -653,7 +652,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* wealthia20Tests.m in Sources */,
+				00E356F31AD99517003FC87E /* WealthIATests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -671,7 +670,7 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* wealthia20 */;
+			target = 13B07F861A680F5B00A75B9A /* WealthIA */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -679,14 +678,14 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-wealthia20-wealthia20Tests.debug.xcconfig */;
+			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-WealthIA-WealthIATests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = wealthia20Tests/Info.plist;
+				INFOPLIST_FILE = WealthIATests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -698,19 +697,19 @@
 					"-lc++",
 					"$(inherited)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.innovetsolutions.wealthia;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wealthia20.app/wealthia20";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WealthIA.app/WealthIA";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-wealthia20-wealthia20Tests.release.xcconfig */;
+			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-WealthIA-WealthIATests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = wealthia20Tests/Info.plist;
+				INFOPLIST_FILE = WealthIATests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -722,21 +721,22 @@
 					"-lc++",
 					"$(inherited)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.innovetsolutions.wealthia;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wealthia20.app/wealthia20";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WealthIA.app/WealthIA";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-wealthia20.debug.xcconfig */;
+			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-WealthIA.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = wealthia20/Info.plist;
+				INFOPLIST_FILE = WealthIA/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = WealthIA;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -747,8 +747,8 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = wealthia20;
+				PRODUCT_BUNDLE_IDENTIFIER = com.innovetsolutions.wealthia;
+				PRODUCT_NAME = WealthIA;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -757,12 +757,13 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-wealthia20.release.xcconfig */;
+			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-WealthIA.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = wealthia20/Info.plist;
+				INFOPLIST_FILE = WealthIA/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = WealthIA;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -773,8 +774,8 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = wealthia20;
+				PRODUCT_BUNDLE_IDENTIFIER = com.innovetsolutions.wealthia;
+				PRODUCT_NAME = WealthIA;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -934,7 +935,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "wealthia20Tests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "WealthIATests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -943,7 +944,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "wealthia20" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "WealthIA" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -952,7 +953,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "wealthia20" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "WealthIA" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,

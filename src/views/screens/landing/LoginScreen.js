@@ -136,12 +136,12 @@ const styles = StyleSheet.create({
       },
     logintxt: {
         fontFamily: FONTS.RUBIK_MEDIUM,
-        fontSize: wp(4),
+        fontSize: wp(3.5),
         color: COLORS.fgWhite
     },
     createtxt: {
         fontFamily: FONTS.RUBIK_MEDIUM,
-        fontSize: wp(4),
+        fontSize: wp(3.5),
         color: COLORS.fgWhite
     },
     btnLogin: {
@@ -149,7 +149,7 @@ const styles = StyleSheet.create({
         marginHorizontal: wp(4),
         backgroundColor: COLORS.bgColor,
         alignItems: 'center',
-        paddingVertical: wp(5.3),
+        paddingVertical: Platform.OS === 'android' ? wp(4.5) : wp(5.3),
         paddingHorizontal: wp(5),
         borderRadius: wp(3)
     },
@@ -158,13 +158,13 @@ const styles = StyleSheet.create({
         marginHorizontal: wp(4),
         backgroundColor: COLORS.fgOrange,
         alignItems: 'center',
-        paddingVertical: wp(5.3),
+        paddingVertical: Platform.OS === 'android' ? wp(4.5) : wp(5.3),
         paddingHorizontal: wp(5),
         borderRadius: wp(3)
     },
     forgotTxt: {
         fontFamily: FONTS.RUBIK_MEDIUM,
-        fontSize: wp(3.5),
+        fontSize: wp(3.3),
         color: COLORS.fgOrange
     },
     btnForgot : {
@@ -184,17 +184,18 @@ const styles = StyleSheet.create({
     desc: {
         fontFamily: FONTS.RUBIK_REGULAR,
         color: COLORS.fgTabColor,
-        fontSize: wp(3.3),
+        fontSize: wp(3.2),
         marginTop: wp(3)
     },
     title: {
         fontFamily: FONTS.RUBIK_MEDIUM,
         color: COLORS.fgDarkGrey,
-        fontSize: wp(6.6)
+        fontSize: wp(6)
     },
     signInBox: {
         marginTop: wp(10),
-        marginHorizontal: wp(7)
+        marginHorizontal: wp(7),
+        marginRight: wp(10)
     },
     logoArea: {
         marginTop: wp(10),

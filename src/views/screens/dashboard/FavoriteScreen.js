@@ -134,7 +134,7 @@ const styles = StyleSheet.create({
   hdrTxt: {
     fontFamily: FONTS.RUBIK_MEDIUM,
     color: COLORS.fgWhite,
-    fontSize: wp(6)
+    fontSize: wp(4.8)
 },
 subHdr: {
     marginTop: wp(8),

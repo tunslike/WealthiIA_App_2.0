@@ -1,5 +1,5 @@
 export const APIBaseUrl = {
-    developmentUrl: "http://161.35.208.111:3000/api/v1/",
+    developmentUrl: "https://solutions.apexbyte.tech/api/v1/",
     productionUrl: "http://localhost:8082/api/v1/",
 }
 
@@ -8,8 +8,9 @@ export const SendChampAPI = {
     live_base_url: "https://api.sendchamp.com/api/v1/"
 }
 
+
 //http://localhost:8082/api/v1/
-//https://lamsuite.finserveinvestment.com/services/api/v1/
+//https://solutions.apexbyte.tech/api/v1/
 
 export const AppName = {
     AppName: "WealthIA",

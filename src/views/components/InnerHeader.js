@@ -20,7 +20,7 @@ const InnerHeader = ({showtitle, title}) => {
         <Image 
             source={icons.backarrow}
             style={{
-                height: wp(5), width: wp(5), resizeMode: 'contain', tintColor: COLORS.fgWhite
+                height: wp(4.7), width: wp(4.7), resizeMode: 'contain', tintColor: COLORS.fgWhite
             }}
         />
       </TouchableOpacity>
@@ -32,7 +32,7 @@ const InnerHeader = ({showtitle, title}) => {
         <Image 
           source={icons.alert} 
           style={{
-            height: wp(8), width: wp(8), tintColor: COLORS.fgWhite, resizeMode: 'contain'
+            height: wp(7), width: wp(7), tintColor: COLORS.fgWhite, resizeMode: 'contain'
           }}
         />
       </TouchableOpacity>
@@ -42,7 +42,7 @@ const InnerHeader = ({showtitle, title}) => {
       <Image 
         source={icons.profile} 
         style={{
-          height: wp(6.5), width: wp(6.5), tintColor: COLORS.fgWhite, resizeMode: 'contain'
+          height: wp(5.9), width: wp(5.9), tintColor: COLORS.fgWhite, resizeMode: 'contain'
         }}
       />
     </TouchableOpacity>
@@ -56,13 +56,13 @@ const styles = StyleSheet.create({
     flex: 1,
     color: COLORS.fgButtonBorder,
     fontFamily: FONTS.RUBIK_MEDIUM,
-    fontSize: wp(5)
+    fontSize: wp(4.6)
   },
     hdrToolbar: {
         flexDirection: 'row',
         alignItems: 'center',
         justifyContent: 'space-between',
-        columnGap: wp(5)
+        columnGap: wp(4)
       },
     container: {
         marginTop: wp(3),

@@ -315,7 +315,7 @@ const styles = StyleSheet.create({
     },
     textInputbox: {
         textAlignVertical:'top', 
-        fontSize:wp(3.5),
+        fontSize:wp(3),
         fontFamily: FONTS.RUBIK_REGULAR,
         minHeight: wp(70),
         paddingHorizontal: wp(4),
@@ -328,7 +328,7 @@ const styles = StyleSheet.create({
     },
     desctitle: {
         fontFamily: FONTS.RUBIK_MEDIUM,
-        fontSize: wp(3.5),
+        fontSize: wp(3.2),
         lineHeight:wp(5),
         color: COLORS.fgCatTitle
     },
@@ -339,7 +339,7 @@ const styles = StyleSheet.create({
     provTxt: {
         fontFamily: FONTS.RUBIK_REGULAR,
         color: COLORS.fgCatHeader,
-        fontSize:wp(3.5)
+        fontSize:wp(3)
     },
     providersList: {
         flexDirection: "row",
@@ -372,7 +372,7 @@ const styles = StyleSheet.create({
     hdrTxt: {
         fontFamily: FONTS.RUBIK_MEDIUM,
         color: COLORS.fgWhite,
-        fontSize: wp(6)
+        fontSize: wp(5)
     },
     subHdr: {
         marginTop: wp(8),

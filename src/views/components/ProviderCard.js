@@ -44,7 +44,7 @@ const ProviderCard = ({onPress, CoySign, Name}) => {
 const styles = StyleSheet.create({
     title: {
         fontFamily: FONTS.RUBIK_MEDIUM,
-        fontSize: wp(4.2),
+        fontSize: wp(3.8),
         color: "#5E5757",
         flex: 1
     },
@@ -67,8 +67,8 @@ const styles = StyleSheet.create({
         borderBottomColor: "#F1F2F6",
         borderBottomWidth:1,
         columnGap: wp(4.8),
-        paddingVertical: wp(4),
-        paddingHorizontal: wp(5),
+        paddingVertical: wp(3),
+        paddingHorizontal: wp(3),
 
     }
 });

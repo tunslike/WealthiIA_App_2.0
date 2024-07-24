@@ -30,12 +30,12 @@ const styles = StyleSheet.create({
     desc: {
         color: "#9B9B9B",
         fontFamily: FONTS.RUBIK_REGULAR,
-        fontSize: wp(3.5)
+        fontSize: wp(3.2)
     },
     title: {
         color: "#5E5757",
         fontFamily: FONTS.RUBIK_MEDIUM,
-        fontSize: wp(4.2),
+        fontSize: wp(3.9),
         marginBottom: wp(2)
     },
     container: {

@@ -43,7 +43,7 @@ const OnboardingTextBox = ({ placeholder,maxlength, phone, onFocus, onChange, va
 const styles = StyleSheet.create({
     inputStyle: {
     fontFamily: FONTS.RUBIK_REGULAR,
-    fontSize: wp(3.6),
+    fontSize: wp(3.3),
     width: wp(100),
     color: COLORS.fgDarkGrey,
 

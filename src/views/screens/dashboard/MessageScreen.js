@@ -34,13 +34,14 @@ const MessageScreen = ({navigation, route}) => {
 
       })
       .catch(error => {
+        setLoading(false)
         console.log(error);
       });
 }
 
 const loadEnquiriesMessages = () => {
 
-  setLoading(true);
+  //setLoading(true);
 
   axios.get(APIBaseUrl.developmentUrl + 'messages/providerEnquries/'+customerData.SECTOR_ID,{},{
     headers: {
@@ -57,6 +58,7 @@ const loadEnquiriesMessages = () => {
 
   })
   .catch(error => {
+    setLoading(false)
     console.log(error);
   });
 }
@@ -255,7 +257,7 @@ const styles = StyleSheet.create({
   txtmsgcounter: {
     color: COLORS.fgGray,
     fontFamily: FONTS.RUBIK_MEDIUM,
-    fontSize: wp(3.5)
+    fontSize: wp(3.2)
   },
   msgCount: {
     flexDirection: 'row',
@@ -331,7 +333,7 @@ const styles = StyleSheet.create({
     hdrTxt: {
         fontFamily: FONTS.RUBIK_MEDIUM,
         color: COLORS.fgWhite,
-        fontSize: wp(6)
+        fontSize: wp(4.8)
     },
     subHdr: {
         marginTop: wp(8),

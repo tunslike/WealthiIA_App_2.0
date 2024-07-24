@@ -7,11 +7,11 @@
 #define TIMEOUT_SECONDS 600
 #define TEXT_TO_LOOK_FOR @"Welcome to React"
 
-@interface wealthia20Tests : XCTestCase
+@interface WealthIATests : XCTestCase
 
 @end
 
-@implementation wealthia20Tests
+@implementation WealthIATests
 
 - (BOOL)findSubviewInView:(UIView *)view matching:(BOOL (^)(UIView *view))test
 {

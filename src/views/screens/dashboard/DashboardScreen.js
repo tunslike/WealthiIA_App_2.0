@@ -180,7 +180,7 @@ checkTimeGreetings = () => {
               <Image 
                 source={icons.alert} 
                 style={{
-                  height: wp(8), width: wp(8), tintColor: COLORS.fgWhite, resizeMode: 'contain'
+                  height: wp(7), width: wp(7), tintColor: COLORS.fgWhite, resizeMode: 'contain'
                 }}
               />
             </TouchableOpacity>
@@ -190,7 +190,7 @@ checkTimeGreetings = () => {
             <Image 
               source={icons.profile} 
               style={{
-                height: wp(6.5), width: wp(6.5), tintColor: COLORS.fgWhite, resizeMode: 'contain'
+                height: wp(5.9), width: wp(5.9), tintColor: COLORS.fgWhite, resizeMode: 'contain'
               }}
             />
           </TouchableOpacity>
@@ -283,7 +283,7 @@ const styles = StyleSheet.create({
   menuHdr: {
     fontFamily: FONTS.RUBIK_MEDIUM,
     color: COLORS.fgDarkGrey,
-    fontSize: wp(4.4),
+    fontSize: wp(4.2),
     marginBottom: wp(4),
     marginLeft: wp(3)
   },
@@ -308,7 +308,7 @@ const styles = StyleSheet.create({
     flex: 1,
     fontFamily: FONTS.RUBIK_MEDIUM,
     color: COLORS.fgWhite,
-    fontSize: wp(4.2),
+    fontSize: wp(3.7),
     marginLeft: wp(3)  
   },
   notification: {
@@ -365,7 +365,7 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'space-between',
-    columnGap: wp(5)
+    columnGap: wp(4)
   },
   header: {
     flexDirection: 'row',

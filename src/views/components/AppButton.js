@@ -34,7 +34,7 @@ const styles = StyleSheet.create({
     title: {
         color: COLORS.fgWhite,
         fontFamily: FONTS.RUBIK_MEDIUM,
-        fontSize: wp(4.3)
+        fontSize: wp(3.5)
     }
 })
 
