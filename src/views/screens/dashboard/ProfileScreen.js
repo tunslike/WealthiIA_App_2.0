@@ -9,7 +9,7 @@ import {
   Text, 
   View, 
   Alert,
-  ScrollView,
+  ScrollView, Linking,
   Dimensions} from 'react-native';
   import { COLORS, images, FONTS, icons, APIBaseUrl } from '../../../constants';
   import { AuthContext } from '../../../context/AuthContext';
@@ -23,6 +23,17 @@ import { useSelector, useDispatch } from 'react-redux';
 const ProfileScreen = ({navigation}) => {
 
   const customerData = useSelector((state) => state.customer.customerData);
+
+  const openURI = async () => {
+
+    const url = 'http://www.google.com'
+    const supported = await Linking.canOpenURL(url); //To check if URL is supported or not.
+    if (supported) {
+    await Linking.openURL(url); // It will open the URL on browser.
+    } else {
+    Alert.alert(`Don't know how to open this URL: ${url}`);
+    }
+    }
 
   return (
     <View
@@ -96,6 +107,8 @@ const ProfileScreen = ({navigation}) => {
 
             <Text style={styles.btmHeader}>Settings</Text>
 
+        
+
             <View style={styles.btmBody}>
                     <SettingCard 
                     title="Change Password"
@@ -110,6 +123,207 @@ const ProfileScreen = ({navigation}) => {
                     OnPress={() => navigation.navigate("AddAccounts", {clientid: clientid})}
                     />
                 }
+
+                <TouchableOpacity
+        style={{
+            flexDirection: "row",
+            alignItems: "center",
+            borderBottomColor: "#F1F2F6",
+            borderBottomWidth:1,
+            paddingBottom:wp(2.5),
+            paddingTop:wp(2),
+            paddingHorizontal: wp(5),
+            alignItems: "center"
+        }}
+        onPress={() => {Linking.openURL('https://wealthia.com.ng/pages/about')}}
+    >
+        <View
+            style={{
+                backgroundColor: "#F1F2F6",
+                width:45,
+                height:45,
+                borderRadius:10,
+                alignItems: "center",
+                justifyContent: "center",
+            }}
+        >
+            <Text
+                style={{
+                    fontFamily: FONTS.RUBIK_MEDIUM,
+                    color: "#E5E5E5",
+                    fontSize: 28
+                }}
+            >
+               A
+            </Text>
+        </View>
+
+        <View
+            style={{
+                flex:1,
+                paddingHorizontal: 15
+            }}
+        >
+            <Text
+                style={
+                    {
+                        fontFamily: FONTS.RUBIK_MEDIUM,
+                        color: "#5E5757",
+                        fontSize: 15,
+                        marginBottom:5,
+                 
+                    }               
+                }
+            >
+               About
+            </Text>
+        </View>
+            <Image 
+            source={icons.categoryArrow}
+            resizeMode="contain"
+            style={{
+                width:20,
+                height:20,
+                tintColor: COLORS.fgOrange
+            }}
+        />
+    
+    </TouchableOpacity>
+
+    <TouchableOpacity
+    style={{
+        flexDirection: "row",
+        alignItems: "center",
+        borderBottomColor: "#F1F2F6",
+        borderBottomWidth:1,
+        paddingBottom:wp(2.5),
+        paddingTop:wp(2),
+        paddingHorizontal: wp(5),
+        alignItems: "center"
+    }}
+    onPress={() => {Linking.openURL('https://wealthia.com.ng/pages/privacyPolicy')}}
+>
+    <View
+        style={{
+            backgroundColor: "#F1F2F6",
+            width:45,
+            height:45,
+            borderRadius:10,
+            alignItems: "center",
+            justifyContent: "center",
+        }}
+    >
+        <Text
+            style={{
+                fontFamily: FONTS.RUBIK_MEDIUM,
+                color: "#E5E5E5",
+                fontSize: 28
+            }}
+        >
+           P
+        </Text>
+    </View>
+
+    <View
+        style={{
+            flex:1,
+            paddingHorizontal: 15
+        }}
+    >
+        <Text
+            style={
+                {
+                    fontFamily: FONTS.RUBIK_MEDIUM,
+                    color: "#5E5757",
+                    fontSize: 15,
+                    marginBottom:5,
+             
+                }               
+            }
+        >
+           Privacy Policy
+        </Text>
+    </View>
+        <Image 
+        source={icons.categoryArrow}
+        resizeMode="contain"
+        style={{
+            width:20,
+            height:20,
+            tintColor: COLORS.fgOrange
+        }}
+    />
+
+</TouchableOpacity>
+
+<TouchableOpacity
+style={{
+    flexDirection: "row",
+    alignItems: "center",
+    borderBottomColor: "#F1F2F6",
+    borderBottomWidth:1,
+    paddingBottom:wp(2.5),
+    paddingTop:wp(2),
+    paddingHorizontal: wp(5),
+    alignItems: "center"
+}}
+onPress={() => {Linking.openURL('https://wealthia.com.ng/pages/deleteAccount')}}
+>
+<View
+    style={{
+        backgroundColor: "#F1F2F6",
+        width:45,
+        height:45,
+        borderRadius:10,
+        alignItems: "center",
+        justifyContent: "center",
+    }}
+>
+    <Text
+        style={{
+            fontFamily: FONTS.RUBIK_MEDIUM,
+            color: "#E5E5E5",
+            fontSize: 28
+        }}
+    >
+       D
+    </Text>
+</View>
+
+<View
+    style={{
+        flex:1,
+        paddingHorizontal: 15
+    }}
+>
+    <Text
+        style={
+            {
+                fontFamily: FONTS.RUBIK_MEDIUM,
+                fontSize: 15,
+                marginBottom:5,
+                color: COLORS.errorRed
+         
+            }               
+        }
+    >
+       Delete Account
+    </Text>
+</View>
+    <Image 
+    source={icons.categoryArrow}
+    resizeMode="contain"
+    style={{
+        width:20,
+        height:20,
+        tintColor: COLORS.fgOrange
+    }}
+/>
+
+</TouchableOpacity>
+
+
+
             
             </View>
 
@@ -159,7 +373,7 @@ const styles = StyleSheet.create({
     btmBody: {
         backgroundColor: COLORS.fgWhite,
         borderRadius: wp(5),
-        paddingTop:10,
+        paddingTop:5,
         marginTop: 10,
         marginBottom: wp(8)
     },

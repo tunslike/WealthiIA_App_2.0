@@ -1,5 +1,5 @@
 export const APIBaseUrl = {
-    developmentUrl: "https://solutions.apexbyte.tech/api/v1/",
+    developmentUrl: "https://wealthia.com.ng/backend/api/v1/",
     productionUrl: "http://localhost:8082/api/v1/",
 }
 

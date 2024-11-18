@@ -8,7 +8,7 @@ import {
 import {widthPercentageToDP as wp, heightPercentageToDP as hp} from 'react-native-responsive-screen';
 import { COLORS, images, FONTS, icons, APIBaseUrl } from '../../constants';
 
-const SettingCard = ({title, titleSign, OnPress}) => {
+const SettingCard = ({title, titleSign, styles, OnPress}) => {
  
     return (
 
@@ -18,7 +18,7 @@ const SettingCard = ({title, titleSign, OnPress}) => {
             alignItems: "center",
             borderBottomColor: "#F1F2F6",
             borderBottomWidth:1,
-            paddingBottom:wp(4),
+            paddingBottom:wp(2.5),
             paddingTop:wp(2),
             paddingHorizontal: wp(5),
             alignItems: "center"
@@ -28,8 +28,8 @@ const SettingCard = ({title, titleSign, OnPress}) => {
         <View
             style={{
                 backgroundColor: "#F1F2F6",
-                width:47,
-                height:49,
+                width:45,
+                height:45,
                 borderRadius:10,
                 alignItems: "center",
                 justifyContent: "center",
@@ -39,7 +39,7 @@ const SettingCard = ({title, titleSign, OnPress}) => {
                 style={{
                     fontFamily: FONTS.RUBIK_MEDIUM,
                     color: "#E5E5E5",
-                    fontSize: 30
+                    fontSize: 28
                 }}
             >
                 {titleSign}
@@ -57,8 +57,9 @@ const SettingCard = ({title, titleSign, OnPress}) => {
                     {
                         fontFamily: FONTS.RUBIK_MEDIUM,
                         color: "#5E5757",
-                        fontSize: 16.5,
+                        fontSize: 15,
                         marginBottom:5,
+                        ...styles
                     }               
                 }
             >
