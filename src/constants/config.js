@@ -8,7 +8,6 @@ export const SendChampAPI = {
     live_base_url: "https://api.sendchamp.com/api/v1/"
 }
 
-
 //http://localhost:8082/api/v1/
 //https://solutions.apexbyte.tech/api/v1/
 
